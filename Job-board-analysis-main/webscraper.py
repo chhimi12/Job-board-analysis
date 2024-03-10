@@ -25,18 +25,27 @@ def extraction(soup):  # control what information is extracted here
         # wage_element = element.find('div', class_="metadata salary-snippet-container css-5zy3wz eu4oa1w0")
         # wage = wage_element.text.strip() if wage_element else "N/A"
         link = driver.find_element(By.LINK_TEXT, Title.text)
+
         link.click()
-        time.sleep(2)
-        Title = soup.find('h2', class_='jobsearch-JobInfoHeader-title')
-        Company = soup.find('a', class_='css-775knl e19afand0')
-        Location = soup.find('div', class_='css-1ikmi61 eu4oa1w0')
-        wage = soup.find('span', class_='css-19j1a75 eu4oa1w0')
-        des = soup.find('div', {'id': 'jobDescriptionText'})
-        Skills = ""
-        print(Title.text + "\n" + des.text)
-        print("\n - - - - - - - - - - - ")
+        time.sleep(3)
         src = driver.page_source  # update html
         soup = BeautifulSoup(src, 'html.parser')
+
+
+        Title = soup.find('h2', class_='jobsearch-JobInfoHeader-title')
+        print("Title" + str(Title) + "\n")
+        Company = soup.find('a', class_='css-775knl e19afand0')
+        print("company" + str(Company) + "\n")
+        Location = soup.find('div', class_='css-1ikmi61 eu4oa1w0')
+        print("location" + str(Location) + "\n")
+        wage = soup.find('span', class_='css-19j1a75 eu4oa1w0')
+        print("wage" + str(wage) + "\n")
+        des = soup.find('div', {'id': 'jobDescriptionText'})
+        Skills = ""
+
+        src = driver.page_source  # update html
+        soup = BeautifulSoup(src, 'html.parser')
+
         # print(Company.text + "\n")
         # print(des.text.strip())
 
