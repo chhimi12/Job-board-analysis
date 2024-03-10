@@ -28,8 +28,7 @@ def extraction(soup):  # control what information is extracted here
 
         link.click()
         time.sleep(3)
-        src = driver.page_source  # update html
-        soup = BeautifulSoup(src, 'html.parser')
+
 
 
         Title = soup.find('h2', class_='jobsearch-JobInfoHeader-title')
@@ -45,6 +44,8 @@ def extraction(soup):  # control what information is extracted here
 
         src = driver.page_source  # update html
         soup = BeautifulSoup(src, 'html.parser')
+
+
 
         # print(Company.text + "\n")
         # print(des.text.strip())
