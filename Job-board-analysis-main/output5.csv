@@ -1,16 +1,106 @@
-Title,Location,Company,Skills,wage
-Remote Software Intern/Junior Developer for AI Company - job post,Remote,PureCode AI,,"<span class=""css-19j1a75 eu4oa1w0"">$25 - $40 an hour</span>"
-Remote Software Intern/Junior Developer for AI Company - job post,Remote,PureCode AI,,"<span class=""css-19j1a75 eu4oa1w0"">$25 - $40 an hour</span>"
-Software Development Intern - job post,"New York, NY 10001•Hybrid work",UNITE HERE,,"<span class=""css-19j1a75 eu4oa1w0"">$25 an hour</span>"
-NVIDIA Summer 2024 Internships: Software Engineering Intern - job post,"2788 San Tomas Expressway, Santa Clara, CA 95051",NVIDIA,,"<span class=""css-19j1a75 eu4oa1w0"">$16 - $88 an hour</span>"
-Software Development Intern - job post,"New York, NY 10001•Hybrid work",UNITE HERE,,"<span class=""css-19j1a75 eu4oa1w0"">$25 an hour</span>"
-Data Science Intern - job post,"17171 Murphy Avenue, Irvine, CA 92614",Zymo Research,,"<span class=""css-19j1a75 eu4oa1w0"">$20 an hour</span>"
-Software Developer Intern - job post,Remote,Meritize,,"<span class=""css-19j1a75 eu4oa1w0"">$27 an hour</span>"
-Learning Engineering Intern - job post,Remote,Digital Harbor Foundation,,"<span class=""css-19j1a75 eu4oa1w0"">$25 - $30 an hour</span>"
-Software Intern / Entry Level Software Engineer - job post,"Tempe, AZ 85282•Hybrid work",Hammoq,,"<span class=""css-19j1a75 eu4oa1w0"">$22 - $25 an hour</span>"
-Software Engineering Summer Intern - job post,California•Remote,Panoptyc,,"<span class=""css-19j1a75 eu4oa1w0"">$20 - $30 an hour</span>"
-Software Specialist - Intern - job post,Remote,Fullsteam,,
-Software Developer Intern ( Paratext) - job post,Remote,SIL International,,"<span class=""css-19j1a75 eu4oa1w0"">$22.50 an hour</span>"
-Software Developer Intern - job post,Remote,Meritize,,"<span class=""css-19j1a75 eu4oa1w0"">$27 an hour</span>"
-Information Technology Intern - job post,"New York, NY 10065",The Andrew W Mellon Foundation,,"<span class=""css-19j1a75 eu4oa1w0"">$27 - $30 an hour</span>"
-Software Engineering Internship - Summer 2024 - job post,"San Diego, CA",Qualcomm,,
+Title,Location,Company,skills,wage,qualifications,work_place,job_type
+Software Engineering Intern,"Murray, UT",Delinea,"C#, HTML, Javascript, Angular, React",N/A,"Computer Science, Computer Engineering",N/A,N/A
+Software Engineering Intern,"Salt Lake City, UT 84104",Varex Imaging,"C#, HTML, JavaScript, Angular, React",N/A,"Computer Science, Computer Engineering",N/A,Internship
+R&D Intern,"Salt Lake City, UT 84108 
+(East Bench area)",bioMerieux SA,N/A,N/A,N/A,In-person,Internship
+"Supply Chain Intern, Salt Lake City, UT #111963","Salt Lake City, UT 84116 
+(Poplar Grove area)",PacifiCorp,N/A,N/A,"Business, supply chain, or a related field",Hybrid,N/A
+R&D Imaging Engineering Intern,"Salt Lake City, UT 84104",Varex Imaging,"Python, Bash, C, C++",N/A,N/A,N/A,Intern
+Web Development Intern,"Salt Lake City, UT 84112 
+(East Bench area)",University of Utah,"HTML, CSS, JavaScript, HTML",N/A,N/A,N/A,Part Time
+Engineering Intern,"Sandy, UT",BD,N/A,N/A,"Mechanical Engineering, Manufacturing Engineering",N/A,",Internship"
+CRISPR-Cas9 Technology Internship,"Salt Lake City, UT 84103 
+(Capitol Hill area)",Seek Labs,N/A,$20 - $24 an hour,N/A,In person,Internship
+HR Intern,"Salt Lake City, UT 84120",USANA Health Sciences,N/A,N/A,Human Resources,N/A,Internship
+Data & Analytics Intern,"Sandy, UT 84070",Larry H. Miller Company,"Python, Snowflake, Domo, Quicksight, SQL",$22 an hour,"Computer Science, Data Science, Analytics",N/A,Part-Time
+Communications Internship,"Salt Lake City, UT 84103 
+(Capitol Hill area)",Seek Labs,N/A,$18 - $20 an hour,"Communications, Marketing, Public Relations",In Person,Internship
+Data Analytics Intern (Summer 24 - Remote Eligible),"Remote in Lehi, UT 84043",Eide Bailly LLP,N/A,N/A,N/A,N/A,Internship
+IT Intern,"Salt Lake City, UT",MasterControl,N/A,N/A,"Applicants studying toward an undergraduate degree in computer science preferred, N/A",N/A,N/A
+Intern- Markets,"Park City, UT 84098",StoneX Group,N/A,N/A,N/A,Hybrid,Internship
+Robotics Engineering Intern,"Salt Lake City, UT 84111 
+(Central City area)",Altitude AI,N/A,N/A,"mechanical engineering, electrical or mechatronics engineering",N/A,Part-time
+"College Internship - Continuous Improvement, Supply Chain","North Salt Lake, UT",Albertsons Companies,N/A,$20 an hour,N/A,In-person,Internship
+Software Engineering Intern,"Salt Lake City, UT 84111 
+(Central City area)",Altitude AI,N/A,N/A,N/A,In-person,Internship
+Quality Assurance Intern,"Sandy, UT 84070",Sunwest Bank,"Python, JavaScript, SQL",N/A,"Computer Science, or other STEM-related field",N/A,Internship
+Engineering Intern,"Remote in South Jordan, UT",Ivanti,"JavaScript, Java, C#, C++",N/A,N/A,N/A,Internship
+Data Management Intern,"Salt Lake City, UT 84111 
+(Central City area)",MAV KG LLC,SQL,$15 an hour,A degree related to the position,N/A,Internship
+"Mechanical Engineering Intern D (Salt Lake City, UT)","Salt Lake City, UT",L3Harris Technologies,"Working knowledge of one programming language, N/A",N/A,N/A,Hybrid,Internship
+Web Developer (Internship),"Salt Lake City, UT",Fusion 360,"ES6, React, AWS, HTML, JavaScript, PHP",N/A,N/A,In-person,Internship
+"Intern, Development & Event Planning","Hybrid remote in Salt Lake City, UT 84190",American Heart Association,N/A,$23 an hour,N/A,Hybrid,Internship
+Investment Analyst Intern,"Salt Lake City, UT 84111 
+(Central City area)",FJ Management,Python,N/A,N/A,N/A,Internship
+IT Part-time Intern – Undergrad,"Draper, UT",Proofpoint,N/A,N/A,N/A,",In-person",Internship
+Data Reporting and Analytics Intern,"Salt Lake City, UT 84119",Utah Transit Authority,"SQL, TSQL, SSIS",$22.17 an hour,"Computer Science, Information Systems",N/A,"Part-time, Internship"
+HR Summer Intern,"Salt Lake City, UT 84119",Mesa Systems,N/A,N/A,"Human Resources, Business Administration, Psychology",N/A,Internship
+Business Analyst Intern,"Hybrid remote in Salt Lake City, UT 84104",bioMerieux SA,N/A,N/A,"Information Technology, Information Systems, Software Development",Hybrid,Internship
+Graphic Design Intern,"Hybrid remote in Salt Lake City, UT 84104",Italic Labs LC,N/A,N/A,N/A,Hybrid,Internship
+"Program Management Intern D (Salt Lake City, UT)","Salt Lake City, UT",L3Harris Technologies,N/A,N/A,N/A,In-person,Internship
+"Intern, Development & Event Planning","Hybrid remote in Salt Lake City, UT 84102",American Heart Association,N/A,N/A,N/A,Hybrid,Internship
+"Summer Intern, Design Engineering","Park City, UT 84098",Triumph Group,N/A,N/A,N/A,N/A,Internship
+Human Resources Summer Intern,"Salt Lake City, UT",Albany International Corp.,N/A,N/A,N/A,N/A,N/A
+"Lean Analyst Intern, Summer 2024","Salt Lake City, UT",CHG Healthcare,N/A,$20 an hour,N/A,N/A,N/A
+Jordan PREP Summer STEM Intern,"West Jordan, UT 84088",Jordan PREP,N/A,N/A,"Mathematics, Science, Engineering, Secondary Education, Computer Science",In person,Internship
+"Research & Development Engineering Year-Round Internship (On-Site) / Salt Lake City, UT","Salt Lake City, UT",BD,N/A,N/A,N/A,N/A,Internship
+"Summer Intern, Quality Engineering","Park City, UT 84098",Triumph Group,N/A,N/A,"Science, Technology, Engineering, or Math (STEM)",N/A,N/A
+Social Media Marketing(Internship),"Salt Lake City, UT",Fusion 360,N/A,N/A,"Broadcast Journalism, Journalism, English, Humanities or Communications",N/A,"Internship,Part-time"
+Student/Intern,"Salt Lake City, UT",Morrison Hershfield,N/A,N/A,N/A,N/A,Internship
+Internship - Data/Mechanic- SLC,"Salt Lake City, UT 84101 
+(People's Freeway area)",Rio Tinto,N/A,N/A,Mechanical Engineering,N/A,Internship
+Instructional Design Internship,"Salt Lake City, UT 84104","Packsize, LLC",N/A,N/A,"Instructional Design, Education Technology",Hybrid,Internship
+Engineering Intern,"Salt Lake City, UT",Hexcel Corporation,Programming languages are not listed in the job description. N/A,N/A,"Materials Science, Electrical, Mechanical, Manufacturing, Chemical, or Civil Engineering",N/A,Internship
+Paid Airport Intern,"Salt Lake City, UT",SALT LAKE CITY CORP,N/A,N/A,N/A,N/A,Intern
+Help Desk Intern,"Salt Lake City, UT 84123","Sorenson Communications, LLC",N/A,$20 - $35 an hour,N/A,Hybrid,Internship
+Digital Marketing Intern,"Salt Lake City, UT",Webtek Interactive,N/A,N/A,N/A,N/A,Internship
+"Intern, Development & Event Planning","Hybrid remote in Salt Lake City, UT 84190",American Heart Association,N/A,$23 an hour,N/A,Hybrid,Internship
+Intern Engineer - NWD (For Current/Previous HNTB Interns ONLY) - Summer 2024,"Midvale, UT 84047",HNTB Corporation,N/A,$20.44 - $30.66 an hour,N/A,N/A,Intern
+Summer Internship - Multiple Departments,"Centerville, UT 84014",Management & Training Corporation,N/A,$17 an hour,N/A,In-person,Internship
+Guest Services Paid Intern for the Family History Library,"Salt Lake City, UT 84103 
+(Capitol Hill area)",The Church of Jesus Christ of Latter-day Saints,N/A,N/A,"information technology, computer science, family history, or other degree",N/A,Internship
+Corporate 2024 Summer Interns (Engineers & Research Scientists),"Salt Lake City, UT",Hexcel Corporation,N/A,N/A,"Chemical Engineering, Mechanical Engineering, Materials Science Engineering, Manufacturing Engineering, Industrial Engineering, Computer Science, Data Analytics",N/A,Internship
+Unmanned Aircraft System (Drone) Intern,"Kaysville, UT 84037",Mosquito Abatement District-Davis,N/A,N/A,"Computer science, information technology, or a related field",N/A,Internship
+QA Tester Summer Shiftworker,"Draper, UT 84020",Arisa is Energy,N/A,N/A,N/A,N/A,N/A
+"R&D Engineering Intern (On-Site) - Salt Lake City, UT","Salt Lake City, UT",BD,N/A,N/A,"Biomedical, Mechanical",N/A,Internship
+R&D Engineering Intern,"Salt Lake City, UT 84104",Laborie Medical Technologies Corp,N/A,N/A,"Mechanical Engineering, Biomedical Engineering, or related engineering discipline",In-person,Internship
+Advancement Services Intern,"Salt Lake City, UT 84105 
+(Sugar House area)",Westminster University,N/A,N/A,N/A,N/A,Internship
+Intern - Industrial Engineer,"Hybrid remote in North Salt Lake, UT 84054",Albertsons Companies,N/A,$20 an hour,"Supply Chain or applicable major supporting distribution, logistics",Hybrid,Internship
+Co-Op Materials Scientist,"Salt Lake City, UT",Gentex Corporation,N/A,N/A,N/A,N/A,Internship
+Patent Technical Intern,"Salt Lake City, UT 84111 
+(Downtown area)",Dorsey & Whitney LLP,N/A,N/A,"Mechanical Engineering, Material Science, Electrical Engineering",Hybrid,Internship
+Data Integrations Internship (Summer 2024 - Remote Eligible),"Remote in Lehi, UT 84043",Eide Bailly LLP,"SQL, Microsoft Excel, Relational Databases, Dell Boomi, Workato, Electronic Data Interchange (EDI), MuleSoft",$21 - $31 an hour,N/A,N/A,Internship
+Jr. Systems Engineering,"Layton, UT",Peraton,N/A,N/A,"Computer Science, Computer Engineering, Electrical/Electronics Engineering, Math or Physics",In-person,N/A
+Technical Support Engineer Intern,"Remote in Salt Lake City, UT",Ivanti,N/A,N/A,N/A,Hybrid,Internship
+Coding/Programing Tutor,"Sandy, UT 84093",Code Ninjas Sandy,N/A,$12 - $15 an hour,N/A,N/A,Internship
+Student Intern - Construction Services,"Cottonwood Heights, UT 84047","Stanley Consultants, Inc.",N/A,N/A,N/A,N/A,Internship
+Growth Hacker Marketing Internship,"Hybrid remote in Lehi, UT 84043",Neighbor,N/A,N/A,N/A,N/A,Internship
+Electrical Engineer – Student Intern,"Salt Lake City, UT",Spectrum Engineers,N/A,N/A,N/A,N/A,Internship
+"Sales Engineering, Intern","Remote in Salt Lake City, UT",Circle,N/A,$20 an hour,N/A,Remote,Internship
+Sales Development Intern,"Hybrid remote in Sandy, UT",NICE Systems,N/A,N/A,N/A,Remote,Internship
+Software Engineers,"Remote in Salt Lake City, UT",ModelOp,N/A,N/A,N/A,N/A,Internship
+Campus Internship Program,"Salt Lake City, UT 84123",Salt Lake Community College,N/A,$15.00 - $15.49 an hour,N/A,N/A,Internship
+SOFTWARE DEVELOPER,"Salt Lake City, UT",XEL IT Solutions,N/A,N/A,N/A,Hybrid,Internship
+Sales Development Intern,"Hybrid remote in Salt Lake City, UT",NICE,N/A,N/A,"Information Security, Information Technology, or related field",N/A,Internship
+Application Engineer Co-Op,"Salt Lake City, UT",Waystar,N/A,N/A,N/A,N/A,Internship
+DevSecOps Site Reliability Engr Intern,"Remote in Murray, UT",Ericsson,N/A,$26 - $31 an hour,N/A,N/A,Internship
+Software Programmer,"Salt Lake City, UT 84107",Fat Pipe Inc,N/A,N/A,N/A,N/A,Internship
+Member Frontline - High School Intern,"Salt Lake City, UT 84115 
+(People's Freeway area)",Sam's Club,N/A,N/A,"Bachelor of Science or Master of Science degree in Information Security, Information Technology, or related field, N/A",Remote,Internship
+"Sales Engineering, Intern","Remote in Salt Lake City, UT",Circle,N/A,$20 an hour,N/A,Remote,N/A
+Sales Development Intern,"Hybrid remote in Sandy, UT",NICE Systems,N/A,N/A,"Computer Science, not necessarily pursuing a CS degree",Remote,Internship
+"Intern, Community Health-Salt Lake City, UT","Hybrid remote in Salt Lake City, UT 84111",American Heart Association,N/A,$23 an hour,Computer Science,Remote,N/A
+Software Engineers,"Remote in Salt Lake City, UT",ModelOp,Familiarity with at least one programming language or web development framework,N/A,N/A,Remote,N/A
+SOFTWARE DEVELOPER,"Salt Lake City, UT",XEL IT Solutions,"Programming Languages,N/A",N/A,Computer Science,Remote,Internship
+Campus Internship Program,"Salt Lake City, UT 84123",Salt Lake Community College,N/A,$15.00 - $15.49 an hour,N/A,Remote,N/A
+Application Engineer Co-Op,"Salt Lake City, UT",Waystar,N/A,N/A,N/A,Remote,N/A
+Sales Development Intern,"Hybrid remote in Salt Lake City, UT",NICE,N/A,N/A,Computer Science,Remote,Internship
+Software Programmer,"Salt Lake City, UT 84107",Fat Pipe Inc,N/A,N/A,Computer Science,Remote,Internship
+DevSecOps Site Reliability Engr Intern,"Remote in Murray, UT",Ericsson,N/A,$26 - $31 an hour,N/A,Remote,N/A
+Member Frontline - High School Intern,"Salt Lake City, UT 84115 
+(People's Freeway area)",Sam's Club,N/A,N/A,N/A,Remote,Internship
+"Construction Operations Intern - Draper, UT","Draper, UT 84020",Staker Parson Companies,N/A,N/A,N/A,Remote,Internship
+2024 Sales Engineer Intern - Service,"Salt Lake City, UT 84119",Trane Technologies,N/A,N/A,N/A,Remote,Internship
+Salt Lake City - Construction Intern,"Salt Lake City, UT",The Whiting-Turner Contracting Company,N/A,N/A,N/A,Remote,N/A
+Salt Lake City Internal Audit and Financial Advisory Intern - 2025,"Salt Lake City, UT",Protiviti,N/A,$26 an hour,Computer Science,Remote,Internship
