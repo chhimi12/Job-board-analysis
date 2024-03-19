@@ -4,12 +4,15 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 import textwrap
 from IPython.display import Markdown
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from gemini_api_key import get_api_key
 
 import csv
 
 import google.generativeai as genai
 
-GOOGLE_API_KEY = 'AIzaSyDIjfSQPQKly3kg9rc4KLJK95bueLsMANE'
+GOOGLE_API_KEY = get_api_key()
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
@@ -19,17 +22,38 @@ def to_markdown(text):
     return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
 
+
 # Instantiate Chrome WebDriver with options
-driver = webdriver.Chrome()
+options = webdriver.ChromeOptions()
+options.add_experimental_option(
+    "prefs", {
+        # Block image loading
+        "profile.managed_default_content_settings.images": 2,
+        # Block CSS rendering
+        "profile.managed_default_content_settings.stylesheet": 2,
+        # Disable browser notifications
+        "profile.managed_default_content_settings.notifications": 2,
+        # Disable browser plugins
+        "profile.managed_default_content_settings.plugins": 2,
+    }
+
+)
+driver = webdriver.Chrome(
+    options=options
+)
+
+
+# driver = webdriver.Chrome()
 driver.implicitly_wait(10)
-driver.get("https://www.indeed.com/jobs?q=computer+science+intern&l=Salt+Lake+City%2C+UT&from=searchOnHP&vjk=17569960718583d6")
+driver.get(
+    "https://www.indeed.com/jobs?q=computer+science&l=us&start=650&vjk=964c2e7559651475")
 
 data_list = []
 
 
 def scrap_website(numeber_of_pages):
-    with open('output5.csv', 'w', newline='', encoding='utf-8') as csvfile:
-        fieldnames = ["Title", "Location", "Company", "skills", "wage","qualifications","work_place","job_type"]
+    with open('output12.csv', 'w', newline='', encoding='utf-8') as csvfile:
+        fieldnames = ["Title", "Location", "Company", "skills", "wage", "qualifications", "work_place", "job_type"]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
 
@@ -38,7 +62,8 @@ def scrap_website(numeber_of_pages):
             job_results_container = driver.find_element(By.ID, 'mosaic-jobResults')
 
             # Find all elements with the specified class using By.CSS_SELECTOR
-            selected_elements = job_results_container.find_elements(By.CSS_SELECTOR, '.resultContent.css-1qwrrf0.eu4oa1w0')
+            selected_elements = job_results_container.find_elements(By.CSS_SELECTOR,
+                                                                    '.resultContent.css-1qwrrf0.eu4oa1w0')
 
             # Initialize a list to store the data
 
@@ -54,8 +79,9 @@ def scrap_website(numeber_of_pages):
 
                 except NoSuchElementException:
                     wage = "N/A"
-
-                link = driver.find_element(By.LINK_TEXT, Title)
+                link = WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.LINK_TEXT, Title))
+                )
                 driver.execute_script("arguments[0].scrollIntoView();", link)
                 link.click()
 
@@ -76,25 +102,22 @@ def scrap_website(numeber_of_pages):
                 work_place = response.text
 
                 response = model.generate_content(
-                    f"Extract only whether the Job is full-time,Part-time,Internship  based on the job description, only return csv values, if information is not found return N/A {job_info}")
+                    f"Extract only which of these category the job falls into : full-time,Part-time,Internship  based on the job description, only return csv values, if information is not found return N/A {job_info}")
                 job_type = response.text
 
-
-                data = {"Title": Title, "Location": location, "Company": company, "skills": skills, "wage": wage,"qualifications": qualifications, "work_place": work_place,"job_type": job_type}
+                data = {"Title": Title, "Location": location, "Company": company, "skills": skills, "wage": wage,
+                        "qualifications": qualifications, "work_place": work_place, "job_type": job_type}
                 writer.writerow(data)
 
-            next_button = driver.find_element(By.CSS_SELECTOR, 'a[data-testid="pagination-page-next"]')  # find next button
+            next_button = driver.find_element(By.CSS_SELECTOR,
+                                              'a[data-testid="pagination-page-next"]')  # find next button
             driver.execute_script("arguments[0].scrollIntoView();", next_button)  # avoid interception by cookie button
 
             next_button.click()  # click on next button
 
-
-
-
     # Append the title to the data list
 
 
-scrap_website(1)
-
+scrap_website(25)
 
 driver.quit()
